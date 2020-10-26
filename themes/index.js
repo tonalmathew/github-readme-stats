@@ -4,7 +4,6 @@ const themes = {
         title_color: "065c6f",
         icon_color: "4c71f2",
         text_color: "333",
-        bg_text_color: "9f9f9f",
         bg_color: "fffefe",
     },
     default_repocard: {

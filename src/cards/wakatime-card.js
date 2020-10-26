@@ -91,7 +91,7 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
                 value: language.text,
                 percent: language.percent,
                 progressBarColor: titleColor,
-                progressBarBackgroundColor: bgTextColor,
+                progressBarBackgroundColor: textColor,
                 hideProgress: hide_progress,
             });
         }) : [];
@@ -102,7 +102,6 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
 
     const cssStyles = getStyles({
         titleColor,
-        bgTextColor,
         textColor,
         iconColor,
     });
@@ -114,7 +113,6 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
         height,
         colors: {
             titleColor,
-            bgTextColor,
             textColor,
             iconColor,
             bgColor,
