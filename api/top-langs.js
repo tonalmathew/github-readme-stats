@@ -24,7 +24,7 @@ module.exports = async(req, res) => {
         theme,
         cache_seconds,
         layout,
-        langs_count = "3",
+        langs_count,
         exclude_repo,
         custom_title,
         locale,
@@ -44,7 +44,7 @@ module.exports = async(req, res) => {
     try {
         topLangs = await fetchTopLanguages(
             username,
-            langs_count = "3",
+            langs_count,
             parseArray(exclude_repo),
         );
 
