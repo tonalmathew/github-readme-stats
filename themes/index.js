@@ -3,7 +3,8 @@ const themes = {
         // title_color: "2f80ed",
         title_color: "28df99",
         icon_color: "4c71f2",
-        text_color: "9f9f9f",
+        text_color: "333",
+        bg_text_color: "9f9f9f",
         bg_color: "fffefe",
     },
     default_repocard: {
