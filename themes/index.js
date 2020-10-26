@@ -1,7 +1,7 @@
 const themes = {
     default: {
         // title_color: "2f80ed",
-        title_color: "28df99",
+        title_color: "065c6f",
         icon_color: "4c71f2",
         text_color: "333",
         bg_text_color: "9f9f9f",

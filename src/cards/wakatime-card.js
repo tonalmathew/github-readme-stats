@@ -102,6 +102,7 @@ const renderWakatimeCard = (stats = {}, options = { hide: [] }) => {
 
     const cssStyles = getStyles({
         titleColor,
+        bgTextColor,
         textColor,
         iconColor,
     });
